@@ -116,8 +116,12 @@ class  RabbitMq extends Connector
                 $message->setProperties($this->options['properties']);
             }
 
-            if (isset($this->options['attempts'])) {
-                $message->setProperty(RabbitMQJob::ATTEMPT_COUNT_HEADERS_KEY, $this->options['attempts']);
+            if (isset($options['attempts']) && $options['attempts'] > 0) {
+                $message->setProperty(RabbitMQJob::ATTEMPT_COUNT_HEADERS_KEY, $options['attempts']);
+            } else {
+                if (isset($this->options['attempts'])) {
+                    $message->setProperty(RabbitMQJob::ATTEMPT_COUNT_HEADERS_KEY, $this->options['attempts']);
+                }
             }
 
             $producer = $this->context->createProducer();
