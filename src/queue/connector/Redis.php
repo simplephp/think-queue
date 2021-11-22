@@ -9,15 +9,16 @@
 // | Author: yunwuxin <448901948@qq.com>
 // +----------------------------------------------------------------------
 
-namespace think\queue\connector;
+namespace think\message\queue\connector;
 
 use Closure;
 use Exception;
-use RedisException;
+use \RedisException;
 use think\helper\Str;
-use think\queue\Connector;
-use think\queue\InteractsWithTime;
-use think\queue\job\Redis as RedisJob;
+use think\message\queue\Connector;
+use think\message\queue\InteractsWithTime;
+use think\message\queue\job\Redis as RedisJob;
+
 
 class Redis extends Connector
 {
@@ -49,6 +50,7 @@ class Redis extends Connector
 
     public function __construct($redis, $default = 'default', $retryAfter = 60, $blockFor = null)
     {
+
         $this->redis      = $redis;
         $this->default    = $default;
         $this->retryAfter = $retryAfter;

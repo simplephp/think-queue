@@ -9,11 +9,11 @@
 // | Author: yunwuxin <448901948@qq.com>
 // +----------------------------------------------------------------------
 
-namespace think\queue\job;
+namespace think\message\queue\job;
 
 use think\App;
-use think\queue\connector\Redis as RedisQueue;
-use think\queue\Job;
+use think\message\queue\connector\Redis as RedisQueue;
+use think\message\queue\Job;
 
 class Redis extends Job
 {

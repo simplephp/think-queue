@@ -9,7 +9,7 @@
 // | Author: yunwuxin <448901948@qq.com>
 // +----------------------------------------------------------------------
 
-namespace think\queue;
+namespace think\message\queue;
 
 use Carbon\Carbon;
 use Exception;
@@ -17,13 +17,13 @@ use RuntimeException;
 use think\Cache;
 use think\Event;
 use think\exception\Handle;
-use think\Queue;
-use think\queue\event\JobExceptionOccurred;
-use think\queue\event\JobFailed;
-use think\queue\event\JobProcessed;
-use think\queue\event\JobProcessing;
-use think\queue\event\WorkerStopping;
-use think\queue\exception\MaxAttemptsExceededException;
+use think\message\Queue;
+use think\message\queue\event\JobExceptionOccurred;
+use think\message\queue\event\JobFailed;
+use think\message\queue\event\JobProcessed;
+use think\message\queue\event\JobProcessing;
+use think\message\queue\event\WorkerStopping;
+use think\message\queue\exception\MaxAttemptsExceededException;
 use Throwable;
 
 class Worker

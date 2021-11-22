@@ -9,10 +9,10 @@
 // | Author: yunwuxin <448901948@qq.com>
 // +----------------------------------------------------------------------
 
-namespace think\queue\job;
+namespace think\message\queue\job;
 
 use think\App;
-use think\queue\Job;
+use think\message\queue\Job;
 
 class Sync extends Job
 {

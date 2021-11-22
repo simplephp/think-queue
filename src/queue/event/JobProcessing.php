@@ -1,8 +1,8 @@
 <?php
 
-namespace think\queue\event;
+namespace think\message\queue\event;
 
-use think\queue\Job;
+use think\message\queue\Job;
 
 class JobProcessing
 {

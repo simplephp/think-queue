@@ -1,6 +1,6 @@
 <?php
 
-namespace think\queue\command;
+namespace think\message\queue\command;
 
 use think\console\Command;
 use think\console\Table;

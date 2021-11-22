@@ -9,14 +9,14 @@
 // | Author: yunwuxin <448901948@qq.com>
 // +----------------------------------------------------------------------
 
-namespace think\queue\command;
+namespace think\message\queue\command;
 
 use think\console\Command;
 use think\console\Input;
 use think\console\input\Argument;
 use think\console\input\Option;
 use think\console\Output;
-use think\queue\Listener;
+use think\message\queue\Listener;
 
 class Listen extends Command
 {

@@ -147,12 +147,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/thephpleague/flysystem.git",
-                "reference": "75cde24f11419c6d62f00c56e9213fdf29baa565"
+                "reference": "8f7d625f7b87ecad321b648f0e9a2c4262aed262"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/thephpleague/flysystem/zipball/75cde24f11419c6d62f00c56e9213fdf29baa565",
-                "reference": "75cde24f11419c6d62f00c56e9213fdf29baa565",
+                "url": "https://api.github.com/repos/thephpleague/flysystem/zipball/8f7d625f7b87ecad321b648f0e9a2c4262aed262",
+                "reference": "8f7d625f7b87ecad321b648f0e9a2c4262aed262",
                 "shasum": "",
                 "mirrors": [
                     {
@@ -239,7 +239,7 @@
                     "type": "other"
                 }
             ],
-            "time": "2021-08-17T13:48:38+00:00"
+            "time": "2021-11-21T13:50:21+00:00"
         },
         {
             "name": "league/flysystem-cached-adapter",
@@ -300,16 +300,16 @@
         },
         {
             "name": "league/mime-type-detection",
-            "version": "1.8.0",
+            "version": "1.9.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/thephpleague/mime-type-detection.git",
-                "reference": "b38b25d7b372e9fddb00335400467b223349fd7e"
+                "reference": "aa70e813a6ad3d1558fc927863d47309b4c23e69"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/thephpleague/mime-type-detection/zipball/b38b25d7b372e9fddb00335400467b223349fd7e",
-                "reference": "b38b25d7b372e9fddb00335400467b223349fd7e",
+                "url": "https://api.github.com/repos/thephpleague/mime-type-detection/zipball/aa70e813a6ad3d1558fc927863d47309b4c23e69",
+                "reference": "aa70e813a6ad3d1558fc927863d47309b4c23e69",
                 "shasum": "",
                 "mirrors": [
                     {
@@ -323,7 +323,7 @@
                 "php": "^7.2 || ^8.0"
             },
             "require-dev": {
-                "friendsofphp/php-cs-fixer": "^2.18",
+                "friendsofphp/php-cs-fixer": "^3.2",
                 "phpstan/phpstan": "^0.12.68",
                 "phpunit/phpunit": "^8.5.8 || ^9.3"
             },
@@ -346,7 +346,7 @@
             "description": "Mime-type detection for Flysystem",
             "support": {
                 "issues": "https://github.com/thephpleague/mime-type-detection/issues",
-                "source": "https://github.com/thephpleague/mime-type-detection/tree/1.8.0"
+                "source": "https://github.com/thephpleague/mime-type-detection/tree/1.9.0"
             },
             "funding": [
                 {
@@ -358,7 +358,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2021-09-25T08:23:19+00:00"
+            "time": "2021-11-21T11:48:40+00:00"
         },
         {
             "name": "nesbot/carbon",
@@ -684,12 +684,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpseclib/phpseclib.git",
-                "reference": "014b3a95a107b6329918f1cc431c0f8e181e6229"
+                "reference": "84295e2fc276d0f98983d31bf58584e435fcc73a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpseclib/phpseclib/zipball/014b3a95a107b6329918f1cc431c0f8e181e6229",
-                "reference": "014b3a95a107b6329918f1cc431c0f8e181e6229",
+                "url": "https://api.github.com/repos/phpseclib/phpseclib/zipball/84295e2fc276d0f98983d31bf58584e435fcc73a",
+                "reference": "84295e2fc276d0f98983d31bf58584e435fcc73a",
                 "shasum": "",
                 "mirrors": [
                     {
@@ -793,7 +793,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2021-11-12T01:51:26+00:00"
+            "time": "2021-11-22T03:22:34+00:00"
         },
         {
             "name": "psr/cache",
@@ -1382,12 +1382,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/process.git",
-                "reference": "eebc0708482f630dd632329947c8b8c5e5d804a5"
+                "reference": "a8d1a7b6f9ab04e45b08ef634125ac6d1deef813"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/process/zipball/eebc0708482f630dd632329947c8b8c5e5d804a5",
-                "reference": "eebc0708482f630dd632329947c8b8c5e5d804a5",
+                "url": "https://api.github.com/repos/symfony/process/zipball/a8d1a7b6f9ab04e45b08ef634125ac6d1deef813",
+                "reference": "a8d1a7b6f9ab04e45b08ef634125ac6d1deef813",
                 "shasum": "",
                 "mirrors": [
                     {
@@ -1442,7 +1442,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2021-11-04T12:23:33+00:00"
+            "time": "2021-11-16T10:35:10+00:00"
         },
         {
             "name": "symfony/translation",

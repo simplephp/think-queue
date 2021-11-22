@@ -8,18 +8,18 @@
 // +----------------------------------------------------------------------
 // | Author: yunwuxin <448901948@qq.com>
 // +----------------------------------------------------------------------
-namespace think\queue\command;
+namespace think\message\queue\command;
 
 use think\console\Command;
 use think\console\Input;
 use think\console\input\Argument;
 use think\console\input\Option;
 use think\console\Output;
-use think\queue\event\JobFailed;
-use think\queue\event\JobProcessed;
-use think\queue\event\JobProcessing;
-use think\queue\Job;
-use think\queue\Worker;
+use think\message\queue\event\JobFailed;
+use think\message\queue\event\JobProcessed;
+use think\message\queue\event\JobProcessing;
+use think\message\queue\Job;
+use think\message\queue\Worker;
 
 class Work extends Command
 {
@@ -53,7 +53,7 @@ class Work extends Command
 
     /**
      * Execute the console command.
-     * @param Input  $input
+     * @param Input $input
      * @param Output $output
      * @return int|null|void
      */
@@ -71,7 +71,7 @@ class Work extends Command
         if ($input->getOption('once')) {
             $this->worker->runNextJob($connection, $queue, $delay, $sleep, $tries);
         } else {
-            $memory  = $input->getOption('memory');
+            $memory = $input->getOption('memory');
             $timeout = $input->getOption('timeout');
             $this->worker->daemon($connection, $queue, $delay, $sleep, $tries, $memory, $timeout);
         }
@@ -121,7 +121,7 @@ class Work extends Command
     /**
      * Format the status output for the queue worker.
      *
-     * @param Job    $job
+     * @param Job $job
      * @param string $status
      * @param string $type
      * @return void

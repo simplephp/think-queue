@@ -1,19 +1,19 @@
 <?php
 
-namespace think\queue;
+namespace think\message\queue;
 
 use think\helper\Arr;
 use think\helper\Str;
-use think\Queue;
-use think\queue\command\FailedTable;
-use think\queue\command\FlushFailed;
-use think\queue\command\ForgetFailed;
-use think\queue\command\Listen;
-use think\queue\command\ListFailed;
-use think\queue\command\Restart;
-use think\queue\command\Retry;
-use think\queue\command\Table;
-use think\queue\command\Work;
+use think\message\Queue;
+use think\message\queue\command\FailedTable;
+use think\message\queue\command\FlushFailed;
+use think\message\queue\command\ForgetFailed;
+use think\message\queue\command\Listen;
+use think\message\queue\command\ListFailed;
+use think\message\queue\command\Restart;
+use think\message\queue\command\Retry;
+use think\message\queue\command\Table;
+use think\message\queue\command\Work;
 
 class Service extends \think\Service
 {

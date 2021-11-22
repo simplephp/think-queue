@@ -1,6 +1,6 @@
 <?php
 
-namespace think\queue;
+namespace think\message\queue;
 
 use Carbon\Carbon;
 use DateInterval;

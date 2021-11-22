@@ -1,6 +1,6 @@
 <?php
 
-namespace think\facade;
+namespace think\message\facade;
 
 use think\Facade;
 

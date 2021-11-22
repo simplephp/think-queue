@@ -9,11 +9,12 @@
 // | Author: yunwuxin <448901948@qq.com>
 // +----------------------------------------------------------------------
 
-namespace think;
+namespace think\message;
 
-use think\queue\Connector;
-use think\queue\connector\Database;
-use think\queue\connector\Redis;
+use think\Manager;
+use think\message\queue\Connector;
+use think\message\queue\connector\Database;
+use think\message\queue\connector\Redis;
 
 /**
  * Class Queue
@@ -24,7 +25,7 @@ use think\queue\connector\Redis;
  */
 class Queue extends Manager
 {
-    protected $namespace = '\\think\\queue\\connector\\';
+    protected $namespace = '\\think\\message\\queue\\connector\\';
 
     protected function resolveType(string $name)
     {

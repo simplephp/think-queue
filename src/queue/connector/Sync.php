@@ -9,14 +9,14 @@
 // | Author: yunwuxin <448901948@qq.com>
 // +----------------------------------------------------------------------
 
-namespace think\queue\connector;
+namespace think\message\queue\connector;
 
 use Exception;
-use think\queue\Connector;
-use think\queue\event\JobFailed;
-use think\queue\event\JobProcessed;
-use think\queue\event\JobProcessing;
-use think\queue\job\Sync as SyncJob;
+use think\message\queue\Connector;
+use think\message\queue\event\JobFailed;
+use think\message\queue\event\JobProcessed;
+use think\message\queue\event\JobProcessing;
+use think\message\queue\job\Sync as SyncJob;
 use Throwable;
 
 class Sync extends Connector
