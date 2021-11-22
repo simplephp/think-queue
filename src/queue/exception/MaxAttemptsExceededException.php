@@ -1,6 +1,6 @@
 <?php
 
-namespace simplephp\queue\exception;
+namespace think\queue\exception;
 
 use RuntimeException;
 

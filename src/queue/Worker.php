@@ -9,7 +9,7 @@
 // | Author: yunwuxin <448901948@qq.com>
 // +----------------------------------------------------------------------
 
-namespace simplephp\queue;
+namespace think\queue;
 
 use Carbon\Carbon;
 use Exception;
@@ -17,13 +17,13 @@ use RuntimeException;
 use think\Cache;
 use think\Event;
 use think\exception\Handle;
-use simplephp\Queue;
-use simplephp\queue\event\JobExceptionOccurred;
-use simplephp\queue\event\JobFailed;
-use simplephp\queue\event\JobProcessed;
-use simplephp\queue\event\JobProcessing;
-use simplephp\queue\event\WorkerStopping;
-use simplephp\queue\exception\MaxAttemptsExceededException;
+use think\Queue;
+use think\queue\event\JobExceptionOccurred;
+use think\queue\event\JobFailed;
+use think\queue\event\JobProcessed;
+use think\queue\event\JobProcessing;
+use think\queue\event\WorkerStopping;
+use think\queue\exception\MaxAttemptsExceededException;
 use Throwable;
 
 class Worker

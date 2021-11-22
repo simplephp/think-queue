@@ -1,8 +1,8 @@
 <?php
 
-namespace simplephp\queue\failed;
+namespace think\queue\failed;
 
-use simplephp\queue\FailedJob;
+use think\queue\FailedJob;
 
 class None extends FailedJob
 {

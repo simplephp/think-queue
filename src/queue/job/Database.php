@@ -8,11 +8,11 @@
 // +----------------------------------------------------------------------
 // | Author: yunwuxin <448901948@qq.com>
 // +----------------------------------------------------------------------
-namespace simplephp\queue\job;
+namespace think\queue\job;
 
 use think\App;
-use simplephp\queue\connector\Database as DatabaseQueue;
-use simplephp\queue\Job;
+use think\queue\connector\Database as DatabaseQueue;
+use think\queue\Job;
 
 class Database extends Job
 {

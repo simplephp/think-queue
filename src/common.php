@@ -9,7 +9,7 @@
 // | Author: yunwuxin <448901948@qq.com>
 // +----------------------------------------------------------------------
 
-use simplephp\facade\Queue;
+use think\facade\Queue;
 
 if (!function_exists('queue')) {
 

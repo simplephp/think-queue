@@ -9,16 +9,16 @@
 // | Author: yunwuxin <448901948@qq.com>
 // +----------------------------------------------------------------------
 
-namespace simplephp\queue\connector;
+namespace think\queue\connector;
 
 use Carbon\Carbon;
 use stdClass;
 use think\Db;
 use think\db\ConnectionInterface;
 use think\db\Query;
-use simplephp\queue\Connector;
-use simplephp\queue\InteractsWithTime;
-use simplephp\queue\job\Database as DatabaseJob;
+use think\queue\Connector;
+use think\queue\InteractsWithTime;
+use think\queue\job\Database as DatabaseJob;
 
 class Database extends Connector
 {

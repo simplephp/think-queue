@@ -1,6 +1,6 @@
 <?php
 
-namespace simplephp\facade;
+namespace think\facade;
 
 use think\Facade;
 

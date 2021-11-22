@@ -1,7 +1,7 @@
 <?php
 
 
-namespace simplephp\queue\connector;
+namespace think\queue\connector;
 
 
 use Enqueue\AmqpLib\AmqpConnectionFactory;
@@ -14,8 +14,8 @@ use Interop\Amqp\AmqpTopic;
 use Interop\Amqp\Impl\AmqpBind;
 use think\facade\Log;
 use think\helper\Str;
-use simplephp\queue\Connector;
-use simplephp\queue\job\RabbitMq as RabbitMQJob;
+use think\queue\Connector;
+use think\queue\job\RabbitMq as RabbitMQJob;
 
 class  RabbitMq extends Connector
 {

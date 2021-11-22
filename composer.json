@@ -11,7 +11,7 @@
     ],
     "autoload": {
         "psr-4": {
-            "simplephp\\": "src"
+            "think\\": "src"
         },
         "files": [
             "src/common.php"
@@ -19,7 +19,7 @@
     },
     "autoload-dev": {
         "psr-4": {
-            "simplephp\\test\\queue\\": "tests"
+            "think\\test\\queue\\": "tests"
         }
     },
     "minimum-stability": "dev",

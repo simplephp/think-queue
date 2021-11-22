@@ -1,19 +1,19 @@
 <?php
 
-namespace simplephp\queue;
+namespace think\queue;
 
 use think\helper\Arr;
 use think\helper\Str;
-use simplephp\Queue;
-use simplephp\queue\command\FailedTable;
-use simplephp\queue\command\FlushFailed;
-use simplephp\queue\command\ForgetFailed;
-use simplephp\queue\command\Listen;
-use simplephp\queue\command\ListFailed;
-use simplephp\queue\command\Restart;
-use simplephp\queue\command\Retry;
-use simplephp\queue\command\Table;
-use simplephp\queue\command\Work;
+use think\Queue;
+use think\queue\command\FailedTable;
+use think\queue\command\FlushFailed;
+use think\queue\command\ForgetFailed;
+use think\queue\command\Listen;
+use think\queue\command\ListFailed;
+use think\queue\command\Restart;
+use think\queue\command\Retry;
+use think\queue\command\Table;
+use think\queue\command\Work;
 
 class Service extends \think\Service
 {

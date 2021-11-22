@@ -1,9 +1,9 @@
 <?php
 
-namespace simplephp\queue\event;
+namespace think\queue\event;
 
 use Exception;
-use simplephp\queue\Job;
+use think\queue\Job;
 
 class JobExceptionOccurred
 {

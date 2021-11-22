@@ -9,12 +9,11 @@
 // | Author: yunwuxin <448901948@qq.com>
 // +----------------------------------------------------------------------
 
-namespace simplephp;
+namespace think;
 
-use think\Manager;
-use simplephp\queue\Connector;
-use simplephp\queue\connector\Database;
-use simplephp\queue\connector\Redis;
+use think\queue\Connector;
+use think\queue\connector\Database;
+use think\queue\connector\Redis;
 
 /**
  * Class Queue

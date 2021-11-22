@@ -9,15 +9,15 @@
 // | Author: yunwuxin <448901948@qq.com>
 // +----------------------------------------------------------------------
 
-namespace simplephp\queue\connector;
+namespace think\queue\connector;
 
 use Closure;
 use Exception;
 use RedisException;
 use think\helper\Str;
-use simplephp\queue\Connector;
-use simplephp\queue\InteractsWithTime;
-use simplephp\queue\job\Redis as RedisJob;
+use think\queue\Connector;
+use think\queue\InteractsWithTime;
+use think\queue\job\Redis as RedisJob;
 
 class Redis extends Connector
 {

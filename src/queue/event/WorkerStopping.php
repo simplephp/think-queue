@@ -1,6 +1,6 @@
 <?php
 
-namespace simplephp\queue\event;
+namespace think\queue\event;
 
 class WorkerStopping
 {

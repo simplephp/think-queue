@@ -1,8 +1,8 @@
 <?php
 
-namespace simplephp\queue\event;
+namespace think\queue\event;
 
-use simplephp\queue\Job;
+use think\queue\Job;
 
 class JobProcessing
 {

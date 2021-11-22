@@ -1,11 +1,11 @@
 <?php
 
-namespace simplephp\queue\job;
+namespace think\queue\job;
 
 use think\App;
 use think\helper\Str;
-use simplephp\queue\Job;
-use simplephp\queue\connector\RabbitMq as RabbitMQQueue;
+use think\queue\Job;
+use think\queue\connector\RabbitMq as RabbitMQQueue;
 use Interop\Amqp\AmqpConsumer;
 use Interop\Amqp\AmqpMessage;
 use Exception;

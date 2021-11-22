@@ -9,14 +9,14 @@
 // | Author: yunwuxin <448901948@qq.com>
 // +----------------------------------------------------------------------
 
-namespace simplephp\queue\connector;
+namespace think\queue\connector;
 
 use Exception;
-use simplephp\queue\Connector;
-use simplephp\queue\event\JobFailed;
-use simplephp\queue\event\JobProcessed;
-use simplephp\queue\event\JobProcessing;
-use simplephp\queue\job\Sync as SyncJob;
+use think\queue\Connector;
+use think\queue\event\JobFailed;
+use think\queue\event\JobProcessed;
+use think\queue\event\JobProcessing;
+use think\queue\job\Sync as SyncJob;
 use Throwable;
 
 class Sync extends Connector

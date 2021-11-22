@@ -9,11 +9,11 @@
 // | Author: yunwuxin <448901948@qq.com>
 // +----------------------------------------------------------------------
 
-namespace simplephp\queue\command;
+namespace think\queue\command;
 
 use think\Cache;
 use think\console\Command;
-use simplephp\queue\InteractsWithTime;
+use think\queue\InteractsWithTime;
 
 class Restart extends Command
 {
