@@ -33,7 +33,7 @@
     "extra": {
         "think": {
             "services": [
-                "think\\queue\\Service"
+                "think\\message\\queue\\Service"
             ],
             "config": {
                 "queue": "src/config.php"
